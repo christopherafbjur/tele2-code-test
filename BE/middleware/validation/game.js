@@ -11,6 +11,6 @@ module.exports = async function(req, res, next){
         next();
       } catch (ex) {
         if (!ex.details) return res.sendStatus(500);
-        return res.status(500).json(ex.details.map(detail => detail.message))
+        return res.status(400).json(ex.details.map(detail => detail.message))
       }
 }
