@@ -1,0 +1,7 @@
+.wrapper {
+  background-color: rgb(226, 226, 226);
+  width: 500px;
+  padding: 50px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px gray;
+}
