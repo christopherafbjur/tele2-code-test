@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 const healthRoute = require("./health");
-const calculationRoute = require("./calc");
+const gameRoute = require("./game");
 
 router.use("/health", healthRoute);
-router.use("/calc", calculationRoute);
+router.use("/game", gameRoute);
 
 module.exports = router;
